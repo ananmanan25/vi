@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name":"MONSTER ",
+        "price": 1750,
+        "image": "baggy/b (2).jpg"},
+        {
+            "id": 1,
+            "name":" BRAND NAME",
+            "price": 1750,
+            "image": "baggy/b (4).jpg"},
+            {
+                "id": 1,
+                "name":"CATFISH ",
+                "price": 1750,
+                "image": "baggy/b (3).jpg"},
+                {
+                    "id": 1,
+                    "name":" MONEY",
+                    "price": 1750,
+                    "image": "baggy/b (5).jpg"},
+                    {
+                        "id": 1,
+                        "name":" HUSTLING",
+                        "price": 1750,
+                        "image": "baggy/b (6).jpg"},
+                        {
+                            "id": 1,
+                            "name":" SUNDAY",
+                            "price": 1750,
+                            "image": "baggy/b (7).jpg"},
+                            {
+                                "id": 1,
+                                "name":"WARLOCK ",
+                                "price": 1750,
+                                "image": "baggy/b (9).jpg"},
+                                {
+                                    "id": 1,
+                                    "name":" DEAD",
+                                    "price": 1750,
+                                    "image": "baggy/b (10).jpg"},
+                                    {
+                                        "id": 1,
+                                        "name":" MINDSET",
+                                        "price": 1750,
+                                        "image": "baggy/b (11).jpg"},
+                                        {
+                                            "id": 1,
+                                            "name":" BRAKE RULES",
+                                            "price": 1750,
+                                            "image": "baggy/b (12).jpg"},
+                                            {
+                                                "id": 1,
+                                                "name":"TROUBLE BROOKLYN ",
+                                                "price": 1750,
+                                                "image": "baggy/b (13).jpg"},
+                                                {
+                                                    "id": 1,
+                                                    "name":" TAURUS",
+                                                    "price": 1750,
+                                                    "image": "baggy/b (14).jpg"},
+                                                    {
+                                                        "id": 1,
+                                                        "name":"BEN ",
+                                                        "price": 1750,
+                                                        "image": "baggy/b (15).jpg"}
+                                        ]
