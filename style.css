@@ -378,4 +378,54 @@ footer .social-icons img {
          } /* Example of responsive text */
           title { font-size: 2.5em; text-align: center; } 
           /* Responsive grid */ .grid { display: flex; flex-wrap: wrap; gap: 20px; } .grid-item { flex: 1 1 300px; /* Adjust flex-basis as needed */ background-color: #f0f0f0; padding: 20px; border: 1px solid #ddd; text-align: center; } /* Responsive images */ img { max-width: 100%; height: auto; }
- 
+ /* stylelint-disable selector-max-specificity */
+/* stylelint-disable selector-type-no-unknown */
+
+/* -------------------------------- 
+ *           Global Styles         
+ *--------------------------------- */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  table {
+    /* stylelint-disable-next-line primer/borders */
+    border-collapse: collapse;
+  }
+  
+  [role='button']:focus:not(:focus-visible):not(.focus-visible),
+  [role='tabpanel'][tabindex='0']:focus:not(:focus-visible):not(.focus-visible),
+  button:focus:not(:focus-visible):not(.focus-visible),
+  summary:focus:not(:focus-visible):not(.focus-visible),
+  a:focus:not(:focus-visible):not(.focus-visible) {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  [tabindex='0']:focus:not(:focus-visible):not(.focus-visible),
+  details-dialog:focus:not(:focus-visible):not(.focus-visible) {
+    outline: none;
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  
+  .BaseStyles {
+    /* Global styles for light mode */
+    &:has([data-color-mode='light']) {
+      input & {
+        color-scheme: light;
+      }
+    }
+  
+    /* Global styles for dark mode */
+    &:has([data-color-mode='dark']) {
+      input & {
+        color-scheme: dark;
+      }
+    }
+  }
+  
